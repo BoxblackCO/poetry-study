@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poetry Study: Helps on How to Write a Poem</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  .drawer {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: rgb(39, 53, 53);
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: left 0.5s;
+  }
+  .drawer.show {
+    left: 0;
+  }
+  .drawer a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  .drawer a:hover {
+    background-color: #333;
+  }
+  .box {
+    padding: 20px;
+    background-color: #344;
+  }
+  .icon-pen {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 9999;
+  }
+</style>
+</head>
+<body>
+
+<!-- Custom Icon Pen -->
+<div class="icon-pen" id="penIcon" onclick="toggleDrawer()">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 15.5l-1.5-1.5 6.75-6.75 1.5 1.5L5 15.5zm13.78-8.03l-1.27 1.27 1.5 1.5 1.27-1.27a.996.996 0 0 0 0-1.41l-1.41-1.41a.996.996 0 0 0-1.41 0zM19.54 6c.39.39.39 1.02 0 1.41l-1.5 1.5a.996.996 0 0 0 0 1.41l1.41 1.41a.996.996 0 0 0 1.41 0l1.5-1.5c.39-.39.39-1.02 0-1.41l-1.41-1.41a.996.996 0 0 0-1.41 0l-1.5 1.5zM15 9.92l-1.92 1.92L5.63 20.29c-.19.19-.45.29-.71.29H4c-.55 0-1-.45-1-1V8c0-.28.11-.54.29-.71L9.07 2.08A.996.996 0 0 1 10.5 2h8c.55 0 1 .45 1 1v1.42c0 .26-.1.51-.28.7l-5.22 5.22zM11 4l-5 5h3v2.17l1 1V9h3l5-5h-6V2h-2v2z"/></svg>
+</div>
+
+<!-- Drawer -->
+<div id="myDrawer" class="drawer">
+  <h2>Check Our Another Website></h2>
+  <a href="#" onclick="openSettings()">Box Black Page</a>
+  <h1>Support Us</h1>
+  <p>Please support our content by following our Facebook Page</p>
+</div>
+
+<!-- Content -->
+<div class="box">
+  <h2>  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32"><path fill="none" d="M0 0h24v24H0z"/><path d="M5 15.5l-1.5-1.5 6.75-6.75 1.5 1.5L5 15.5zm13.78-8.03l-1.27 1.27 1.5 1.5 1.27-1.27a.996.996 0 0 0 0-1.41l-1.41-1.41a.996.996 0 0 0-1.41 0zM19.54 6c.39.39.39 1.02 0 1.41l-1.5 1.5a.996.996 0 0 0 0 1.41l1.41 1.41a.996.996 0 0 0 1.41 0l1.5-1.5c.39-.39.39-1.02 0-1.41l-1.41-1.41a.996.996 0 0 0-1.41 0l-1.5 1.5zM15 9.92l-1.92 1.92L5.63 20.29c-.19.19-.45.29-.71.29H4c-.55 0-1-.45-1-1V8c0-.28.11-.54.29-.71L9.07 2.08A.996.996 0 0 1 10.5 2h8c.55 0 1 .45 1 1v1.42c0 .26-.1.51-.28.7l-5.22 5.22zM11 4l-5 5h3v2.17l1 1V9h3l5-5h-6V2h-2v2z"/></svg>
+    Content Made by Box black
+  </h2>
+  <p>This is where our Box black main content goes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempor nunc vitae turpis suscipit, vel consequat orci scelerisque. Sed vel lectus ac lorem sollicitudin vulputate.</p>
+</div>
+
+<script>
+  function toggleDrawer() {
+    var drawer = document.getElementById("myDrawer");
+    drawer.classList.toggle("show");
+  }
+
+  function openSettings() {
+    window.location.href = 'cool.html';
+  }
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Study: Helps on How to Write a Poem</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #344;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        .container {
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            display: none;
+            text-align: left;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+        }
+
+        .container.active {
+            display: block;
+        } 
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe, 
+        .video-container object, 
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 30px;
+            position: center;
+            bottom: 0;
+            width: 96%;
+            text-align: center
+            }
+            footer a {
+                color: #fff;
+                text-decoration: none;
+                padding: 5px 5px;
+            }
+            body {
+                padding-bottom: 60px;
+                position: relative;
+                min-height: 100vh;
+            }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Poetry Study: Write a Poem to Someone You Love</h1>
+        <p>Poetry Study is a website that Help you With Writing a Poetry or Generate a Poem Using an Artificial Intelligence.</p>
+        <style>
+          .share-buttons {
+            text-align: left;
+          }
+          .share-buttons a {
+            color: #000000; /* Change to your desired color */
+            text-decoration: none; /* Optional: Remove underline */
+            margin-right: 10px; /* Optional: Add some spacing between buttons */
+          }
+        </style>
+        
+        <div class="share-buttons">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=YOUR_WEBSITE_URL" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://twitter.com/intent/tweet?url=YOUR_WEBSITE_URL" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="https://www.linkedin.com/shareArticle?url=YOUR_WEBSITE_URL" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#AI Poem Generator">AI Poem Generator</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <a href="#FAQ">FAQ</a>
+        
+    </nav>
+
+    <div id="home" class="container active">
+    
+        <h2>Welcome to Poetry Study
+        </h2>
+
+
+        <p>Explore the beauty of poetry and enhance your understanding of this art form.</p>
+        <p>Here, you'll find a collection of poems, analysis, and resources to deepen your appreciation of poetry
+        <h2>What is Poetry?</h2>
+        <p> Poetry is a form of literary expression that uses language, rhythm, sound, and structure to evoke emotions, convey ideas, and create vivid imagery.
+             It is a highly versatile art form that transcends cultural boundaries and has been an integral part of human civilization for centuries. At its core, poetry is a means of capturing the human experience in all its complexity, from the mundane to the profound, and distilling it into a condensed form that resonates deeply with readers.</p>
+        <p> One defining characteristic of poetry is its use of language in a heightened and often symbolic manner. Poets carefully choose words and phrases to create specific effects, whether it's to convey beauty, express longing, or provoke thought.
+             Through the skillful manipulation of language, poets can evoke powerful emotions and transport readers to different times, places, and states of mind.</p>
+        <p>Another key element of poetry is its focus on form and structure. While prose follows conventional rules of grammar and syntax, poetry often plays with these rules, bending and breaking them to create rhythm, rhyme, and meter.
+             From traditional forms like sonnets and haikus to more experimental free verse, poets employ a wide range of techniques to shape their work and imbue it with meaning.</p>
+        <p>Furthermore, poetry is deeply rooted in oral tradition, with many ancient cultures passing down their stories, myths, and histories through spoken verse. Even today, poetry continues to be performed and shared aloud, connecting people across generations and cultures through the power of language and voice.</p>
+        <p>Ultimately, poetry defies easy definition, as it encompasses a vast array of styles, themes, and techniques. It can be deeply personal or universally resonant, celebratory or mournful, playful or profound.
+             Whatever its form, poetry invites readers to engage with language in a heightened and deeply meaningful way, inviting them to see the world through a different lens and to explore the depths of the human experience.</p>
+        <p>                
+    </p>
+
+        <h2>How to Write Poem?</h2>
+        <p>Steps on how to write a poem: Begin by choosing a theme or topic. Dive into your emotions and experiences.</p>
+        <p> Experiment with different poetic forms and structures. Play with language and imagery. Revise and refine your work until it resonates deeply.</p>
+        <h2>WRITNG A POEM</h2>
+        <p>Writing a poem is a deeply personal and creative process that allows individuals to express their thoughts, emotions, and observations in a unique and artistic way. While there are no strict rules for writing poetry, there are several steps and techniques that can help guide aspiring poets in crafting their work.</p>
+        <p>First and foremost, it's important to find inspiration. This can come from anywhere – a personal experience, a fleeting moment of beauty, or even an abstract concept. Take the time to observe the world around you, paying attention to the details that spark your imagination.</p>
+        <p>Once you have found your inspiration, it's time to choose a theme or topic for your poem. This could be anything from love and loss to nature and the passage of time. The key is to select a subject that resonates with you on a deep and personal level, as this will allow you to infuse your poem with authenticity and emotion.
+        <p>With your theme in mind, begin brainstorming ideas and jotting down notes. Consider the tone and mood you want to convey – whether it's playful and light-hearted or introspective and melancholy. Experiment with different poetic forms and structures, such as sonnets, haikus, or free verse, to find the one that best suits your message.
+        <p>As you start writing, don't be afraid to let your creativity flow freely. Allow yourself to explore unexpected metaphors, vivid imagery, and evocative language. Remember that poetry is as much about the sound and rhythm of words as it is about their meaning, so pay attention to the cadence and musicality of your lines.
+        <p>Once you have a draft of your poem, take the time to revise and refine it. Read it aloud to yourself or to a trusted friend, paying attention to how it sounds and feels. Look for ways to strengthen your imagery, tighten your language, and enhance the overall impact of your poem.
+        <p>Finally, know that writing poetry is a journey of self-discovery and growth. Don't be discouraged by setbacks or failures – instead, use them as opportunities to learn and improve. With dedication, patience, and practice, you can hone your craft and create poetry that speaks to the heart and soul.
+        
+
+        </p>
+        </p>
+        </p>
+            </p>
+        </p>
+        <h1>Table of Contents</h1>
+
+     
+        
+
+        <h1>Poetry Writing Tutorials</h1>
+
+<p>Check out these YouTube videos for tutorials on how to write poems:</p>
+<iframe width="300" height="200" src="https://www.youtube.com/embed/hNz0FGHS8CY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/arE2yyQe1PY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/3sVD4VLjR8U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<h2>EVERYTHING YOU NEED TO WRITE A POEM</h2>
+  <p>Description</p>
+  <p>You're a poet and Daniel Tysdal is about to show it. Daniel will walk you through his writing process to showcase the Power of Poetry to help us remember, grieve and celebrate. 
+
+    Daniel Tysdal has been a Senior Lecturer in the Department of English at UTSC since 2009. He is the author of three books of poetry and the poetry textbook, The Writing Moment: A Practical Guide to Creating Poems (Oxford University Press 2014). He is the recipient of multiple awards for his work and his research interests include creative writing and poetry.
+    
+    This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx</p>
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/z0BUYzMypi8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>Apr 25, 2015</p>
+
+        <h2>Writing Resource for Crafting Poetry</h2>
+        <p>Poetry is the art of distilled expression, where words take on new dimensions, evoking emotions, images, and ideas in the reader's mind. Whether you're a seasoned poet or a beginner taking your first steps into the world of verse, this guide aims to provide you with essential tools and insights to craft poetry that resonates and endures.</p>
+            
+           <p>1. Understanding Poetry:</p>
+            
+        <li>Form and Structure: Explore various poetic forms such as sonnets, haikus, free verse, and ballads. Understand how structure influences meaning and impact.</p>
+           <li>Meter and Rhythm: Learn about meter, rhyme, and rhythm, and how they contribute to the musicality and flow of a poem.</p>
+           <li>Imagery and Symbolism: Delve into the use of vivid imagery and symbolism to evoke sensory experiences and convey deeper meanings.</p>
+
+           <p>2. Finding Inspiration:</p>
+       <li>Observation and Reflection: Cultivate the habit of keen observation and introspection to uncover poetic subjects in everyday life.</p>
+           <li>Nature and the Senses: Tap into the beauty and power of nature, using the senses to enrich your descriptions and metaphors.
+        </p>
+           <li>Personal Experience: Draw from your own experiences, emotions, and memories to infuse authenticity and depth into your poetry.
+        </p>
+        <p>3. Crafting Language:
+
+        </p>
+        <li>Word Choice: Select words carefully, considering their connotations, sounds, and emotional resonance.
+        </p>
+        <li>Figurative Language: Experiment with similes, metaphors, personification, and other figurative devices to add layers of meaning and creativity to your writing.
+        </p>
+        <li>Sound Devices: Explore alliteration, assonance, consonance, and onomatopoeia to enhance the auditory quality of your poetry.
+        </p>
+        <p>4. Editing and Revision:
+
+        </p>
+        <li>Read Aloud: Listen to the sound and rhythm of your poem by reading it aloud. Pay attention to pacing and cadence.
+        </p>
+        <li>Feedback and Critique: Seek feedback from peers or mentors to gain fresh perspectives and identify areas for improvement.
+        </p>
+        <li>Revision Techniques: Experiment with restructuring, deleting, or adding lines to refine your poem until it achieves the desired impact.
+        </p>
+        <h1>Conclusion:</h1>
+        <p>Writing poetry is a journey of self-discovery and expression, where every word carries the weight of emotion and meaning. By mastering the fundamentals of poetic craft, finding inspiration in the world around you, and refining your voice through practice and perseverance, you can create poetry that resonates with others and leaves a lasting impression on the world.</p>
+       <h1>Stanza, Metaphor, and Rhyme Scheme</h1>
+       <h2>Stanza</h2>
+       <p>A stanza, in the realm of poetry, serves as a fundamental unit of organization and expression. It encapsulates a group of lines that contribute to the overall structure and meaning of a poem. The concept of stanza dates back to ancient poetry traditions and has evolved over time to accommodate various forms and styles.
+
+        Typically, stanzas are characterized by shared characteristics such as meter, rhyme scheme, and thematic coherence. They provide a sense of rhythm and structure to a poem, allowing poets to convey their ideas and emotions with clarity and impact. The length and arrangement of stanzas can vary widely, from just a couplet or tercet to longer forms like the quatrain or octave.
+        
+        Stanzas play a crucial role in shaping the reader's experience of a poem. They provide natural breaks that allow readers to pause, reflect, and absorb the meaning of the text. Additionally, stanzas can contribute to the aesthetic appeal of a poem, with poets often experimenting with different stanza forms to create unique patterns and effects.
+        
+        In essence, stanzas serve as the building blocks of poetry, enabling poets to structure their compositions in a way that engages the reader both intellectually and emotionally. Through careful manipulation of stanzaic form and content, poets can craft poems that resonate deeply with their audience, making the stanza a vital element in the art of poetry.</p>
+        <h2>Metaphor</h2>
+        <P>A metaphor is a powerful literary device used to draw comparisons between two seemingly unrelated things, concepts, or ideas, in order to convey a deeper meaning or evoke a vivid image in the reader's mind. Unlike similes, which use "like" or "as" to make comparisons, metaphors assert that one thing is another. Metaphors are ubiquitous in literature, poetry, and everyday language, enriching communication by infusing it with creativity and depth.
+
+            At its core, a metaphor illuminates the essence of one thing by likening it to another, often more familiar or tangible, entity. By doing so, metaphors transcend the literal meaning of words, inviting readers to explore layers of symbolism and metaphorical associations. For example, describing someone as "a shining star" implies not only their brightness but also their exceptional qualities and significance.
+            
+            Metaphors enable writers to convey complex emotions, abstract concepts, and profound truths in a concise and evocative manner. They stimulate the imagination, allowing readers to visualize and experience ideas in a visceral way. Moreover, metaphors can bridge cultural and linguistic divides, offering universal insights and resonating across diverse audiences.
+            
+            In addition to their artistic value, metaphors play a crucial role in cognitive processes, shaping how we perceive and understand the world around us. They facilitate conceptualization, aiding in the comprehension of abstract concepts by relating them to concrete experiences. Through metaphors, we can grasp intangible concepts such as love, time, and morality by associating them with tangible objects and experiences.
+            
+            In summary, metaphors are potent tools of expression that transcend linguistic boundaries, enriching communication, enhancing cognition, and imbuing language with beauty and depth. They invite readers to embark on a journey of discovery, unraveling layers of meaning and unlocking new insights into the human experience.</P>
+    <h2>Rhyme Scheme</h2>
+    <p>A rhyme scheme is the pattern of rhymes at the end of each line in a poem. It's a fundamental aspect of poetry that contributes to its rhythm, structure, and musicality. Rhyme schemes are often represented using letters to denote different rhyme sounds.
+
+        In a rhyme scheme, each line of a poem is assigned a letter to indicate its rhyme sound. Lines that share the same rhyme sound are given the same letter. The most common rhyme scheme is the AABB pattern, where the first two lines rhyme with each other and the next two lines rhyme with each other, such as in a simple quatrain:
+        
+        <li>A - Roses are red (rhymes with line 2)</li> 
+        <li>A - Violets are blue (rhymes with line 1)</li>
+        <li>B - Sugar is sweet (rhymes with line 4) </li>
+       <li> B - And so are you (rhymes with line 3)</li>
+        
+        <p>However, there are many other rhyme schemes used in poetry, such as ABAB, AAAA, ABCB, and so on. Each rhyme scheme creates a different rhythmic and structural effect, contributing to the overall tone and mood of the poem. Poets often choose rhyme schemes carefully to enhance the meaning and impact of their work.
+        
+        The rhyme scheme is an essential tool for understanding and analyzing poetry. By identifying the pattern of rhymes, readers can gain insights into the poet's intentions, thematic elements, and emotional resonance within the poem.</p>
+     <h2>STEP BY STEP</h2>
+   <p> Writing poetry is a deeply personal and creative process, but here's a general step-by-step guide to help you get started:
+    <p>Find Inspiration: Inspiration for poetry can come from anywhere – nature, personal experiences, emotions, memories, observations, etc. Take a walk, listen to music, read other poets' work, or simply sit quietly and reflect on your thoughts and feelings.
+    
+        <p>Choose a Theme or Subject: Decide what you want to write about. It could be a specific event, feeling, person, place, or idea. Having a central theme or subject can help give your poem focus.
+    
+            <p>Select a Form or Structure (Optional): Poetry can take many forms, such as sonnets, haikus, free verse, etc. Decide if you want to follow a specific structure or if you prefer to write in free verse, which doesn't adhere to any strict rules.
+    
+                <p> Brainstorm and Freewrite: Jot down any words, phrases, or images that come to mind related to your chosen theme. Let your thoughts flow freely without worrying about grammar or structure. Freewriting can help you generate ideas and get your creative juices flowing.
+    
+                    <p>Craft Your Language: Choose your words carefully to evoke the emotions and imagery you want to convey. Experiment with different words, metaphors, similes, and sensory details to bring your poem to life.
+    
+                        <p> Consider Sound and Rhythm: Pay attention to the sound and rhythm of your words. Read your poem aloud to hear how it sounds and make adjustments as needed. Experiment with techniques like alliteration, assonance, and onomatopoeia to create musicality and flow.
+    
+                            <p>  Create Structure and Form: If you're following a specific poetic form or structure, make sure your poem adheres to its guidelines. Pay attention to factors like line length, stanza breaks, rhyme scheme, and meter.
+    
+                                <p>  Revise and Edit: Poetry is a craft, and revision is an essential part of the process. Reread your poem several times, looking for areas where you can improve clarity, imagery, language, and overall impact. Cut unnecessary words, refine metaphors, and make sure every word serves a purpose.
+    
+                                    <p>  Seek Feedback (Optional): Share your poem with trusted friends, fellow poets, or writing groups to get feedback. Listen to their suggestions and critiques, but remember that ultimately, your poem is your own expression, and you have the final say.
+    
+                                        <p> Polish and Finalize: Once you're satisfied with your poem, give it a final polish. Check for spelling and grammar errors, ensure consistency in tone and style, and make any last-minute adjustments. Congratulations – you've written a poem!</p>
+
+                                        </p>
+                                    </p>
+                                </p>
+                            </p>
+                        </p>
+                    </p>
+                </p>
+            </p>
+        </p>
+    </p>
+</p>
+
+<h1>Elements and Techniques</h1>
+<p>
+    When writing poetry, there are several elements and techniques you can consider to enhance your craft. Here's an overview of some key aspects:
+    
+    <p>    Stanza: A stanza is a group of lines within a poem, similar to a paragraph in prose. Stanzas can vary in length, and their structure can contribute to the overall rhythm and flow of the poem. Common stanza forms include couplets (two lines), tercets (three lines), quatrains (four lines), and more.
+    
+        <p>   Line Length and Structure: Pay attention to the length and structure of your lines. Shorter lines can create a sense of speed or urgency, while longer lines may slow down the pace and allow for more elaborate descriptions. Experiment with line breaks to create emphasis and add visual interest.
+    
+            <p>   Rhyme Scheme: Rhyme occurs when words share similar sounds, typically at the end of lines. A rhyme scheme is the pattern of rhymes used in a poem, often represented by letters to denote which lines rhyme with each other (e.g., AABB, ABAB, etc.). Rhyme can add musicality and cohesion to a poem, but it's not necessary in all forms of poetry.
+    
+                <p>    Meter and Rhythm: Meter refers to the rhythmic structure of a poem, determined by the arrangement of stressed and unstressed syllables in each line. Common meters include iambic pentameter (five pairs of unstressed/stressed syllables per line) and trochaic tetrameter (four pairs of stressed/unstressed syllables per line). Paying attention to meter can help establish a consistent rhythm and enhance the musicality of your poetry.
+    
+                    <p>   Imagery and Figurative Language: Poetry often relies on vivid imagery and figurative language to evoke emotions and create powerful impressions. Use metaphors, similes, personification, and other literary devices to paint vivid pictures in the reader's mind and appeal to their senses.
+    
+                        <p>   Tone and Mood: Consider the tone and mood you want to convey in your poem. Tone refers to the attitude or emotional stance of the speaker, while mood refers to the overall atmosphere or feeling of the poem. Your choice of language, imagery, and subject matter can all contribute to the tone and mood of your poetry.
+    
+                            <p>    Theme and Symbolism: Every poem explores certain themes or ideas, whether explicitly or implicitly. Think about the central themes or messages you want to convey in your poem, and use symbolism and metaphor to explore these themes in depth.
+    
+                                <p>   Revision and Editing: Revision is an essential part of the writing process for any poet. After writing a draft, take time to revise and refine your poem. Look for ways to improve clarity, tighten language, and enhance the overall impact of your work. Don't be afraid to experiment and make changes until you're satisfied with the final result.
+</p>
+</p>
+</p>
+</p>
+</p>
+</p>
+</p>
+</p>
+</p>
+
+
+</body>
+</html>
+
+                                    </div>
+    <div id="AI Poem Generator" class="container active">
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Poem Generator</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #344;
+        }
+        #poem {
+            background-color: #344;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<h1>AI Beginner Poem Generator</h1>
+<p>Welcome to AI poetry generator, an artificial Intelligence poem generator that helps you have reference in writing poetry or generate your own poetry.</p>
+<p>Basic poem AI generated that can help for your poetry.</p>
+<p>!If you noticed the words are repeated, Only few nouns, adjectives and verbs were added, We'll update this soon!</p>
+<body>
+    <div id="poem"></div>
+    <button onclick="generatePoem()">Generate Poem</button>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #344;
+            .container {
+            width: 70%;
+            margin: 70px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 90%; }
+        }
+        </style>
+
+    <script>
+        // Arrays of words
+        var nouns = ["heart", "love", "moon", "dream", "sun", "sea", "flower", "song", "bird", "tree"];
+        var adjectives = ["beautiful", "bright", "gentle", "mystic", "silken", "whispering", "enchanted", "tender", "serene", "radiant"];
+        var verbs = ["dance", "shine", "sing", "fly", "bloom", "swoon", "glow", "whisper", "soar", "embrace"];
+
+        function generatePoem() {
+            var poem = "";
+            for (var i = 0; i < 4; i++) {
+                poem += getRandom(adjectives) + " " + getRandom(nouns) + " " + getRandom(verbs) + ".<br>";
+            }
+            document.getElementById("poem").innerHTML = poem;
+        }
+
+        function getRandom(array) {
+            return array[Math.floor(Math.random() * array.length)];
+        }
+    </script>
+</body>
+</html>
+
+
+
+    
+    
+    
+    
+    
+    </div>
+            
+            <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 70%;
+            margin: 70px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 90%;
+
+            
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+        textarea {
+            height: 150px;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+         
+
+     </style>
+</div>
+
+    <div id="about" class="container">
+        <h2>About Us: Poetry Study - Elevating Poetic Appreciation</h2>
+        <p>Welcome to Poetry Study, a distinguished platform dedicated to enriching your understanding and appreciation of the art of poetry. Our commitment lies in fostering a scholarly yet accessible environment where individuals can explore, analyze, and celebrate the profound beauty of poetic expression.
+
+        </p>
+        <p>Our Identity:
+        </p>
+        <p>Poetry Study stands as a beacon of scholarly excellence in the realm of poetic discourse. Our team comprises seasoned scholars, accomplished writers, and dedicated educators, all driven by a profound reverence for the written word. We pride ourselves on curating a platform that upholds the highest standards of literary discourse while remaining inclusive and welcoming to enthusiasts from all walks of life.
+
+        </p>
+        <p>Our Endeavors:
+        </p>
+        <p>We offer a comprehensive suite of resources and services tailored to elevate your engagement with poetry:
+
+        </p>
+        <p>Educational Workshops: Participate in meticulously crafted workshops led by esteemed scholars and poets, where you'll delve into the nuances of poetic theory, explore diverse forms and traditions, and refine your analytical skills.
+
+           <p> Inspiring Prompts: Overcome creative barriers with our thoughtfully curated writing prompts, meticulously designed to stimulate your imagination and encourage experimentation with form, style, and thematic exploration.
+            
+            <p>Critical Analysis: Engage in insightful analyses of canonical and contemporary poems, guided by our expert contributors who illuminate the intricacies of poetic craft, thematic resonance, and historical context.
+            
+            <p>Community Forum: Join a vibrant community of fellow enthusiasts, scholars, and poets in our exclusive forum, where lively discussions, peer feedback, and collaborative projects foster intellectual exchange and personal growth.
+            
+            <p>Resource Repository: Access a wealth of scholarly articles, in-depth guides, and practical tips curated by our expert team, covering a wide array of topics ranging from poetic technique and literary history to publishing advice and professional development.</p>
+       
+          <p> The Significance of Poetry:
+          <p>  Poetry transcends mere language to encapsulate the essence of human experience, emotion, and intellect. It serves as a timeless repository of cultural heritage, personal expression, and philosophical inquiry, inviting readers to engage with profound truths and aesthetic pleasures alike.
+       
+          <p>  At Poetry Study, we honor the rich tradition of poetic excellence while fostering a spirit of curiosity, collaboration, and lifelong learning. Join us in our pursuit of literary enlightenment and the enduring power of the written word.
+
+          <p>  Elevate your understanding. Enrich your appreciation. Explore poetry with us
+       
+        </p>
+        </p>
+        </p>
+        </p>
+    </div>
+    <div id="contact" class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us.</p>
+        <p>Email: sev.gb7.covolca@gmail.com</p>
+    </div>
+    
+</div>
+<div id="FAQ" class="container">
+<div>
+    <p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+      /* Style for the FAQ section */
+      .faq {
+        margin: 20px;
+      }
+      
+      /* Style for question headings */
+      .question {
+        font-weight: bold;
+        cursor: pointer;
+        color: #344; /* Green color for questions */
+      }
+      
+      /* Style for answer paragraphs */
+      .answer {
+        display: none;
+        margin-top: 5px;
+        color: #333; /* Dark color for answers */
+      }
+    </style>
+    </head>
+    <body>
+    
+
+    
+    <div class="faq">
+
+        <h1>Click the questions below to reveal answers</h1>
+      <h2 class="question" onclick="toggleAnswer(1)">What is Poetry?</h2>
+      <p class="answer" id="answer1">Poetry is a form of literary expression that uses language and imagery to evoke emotions, convey ideas, and create aesthetic experiences. It often employs structured patterns of rhythm, rhyme, and metaphorical language.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(2)">How Do I Get Started with Writing Poetry?</h2>
+      <p class="answer" id="answer2">To get started with writing poetry, begin by exploring your thoughts, emotions, and experiences. Experiment with different poetic forms, such as free verse or sonnets, and don't be afraid to play with language and imagery. Practice regularly and seek feedback from other poets to improve your craft.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(3)">What Are Some Tips for Writing Better Poetry?</h2>
+      <p class="answer" id="answer3">Some tips for writing better poetry include: 
+        <ul>
+          <li>Read widely and study the work of other poets.</li>
+          <li>Experiment with different poetic devices, such as metaphor, simile, and imagery.</li>
+          <li>Revise and edit your poems to improve clarity and impact.</li>
+          <li>Pay attention to the sound and rhythm of your words.</li>
+          <li>Write from personal experiences and emotions.</li>
+        </ul>
+      </p>
+    
+      <!-- Additional FAQ questions and answers -->
+      <h2 class="question" onclick="toggleAnswer(4)">What Are Some Common Poetic Devices?</h2>
+      <p class="answer" id="answer4">Common poetic devices include: 
+        <ul>
+          <li>Metaphor</li>
+          <li>Simile</li>
+          <li>Personification</li>
+          <li>Imagery</li>
+          <li>Alliteration</li>
+          <li>Assonance</li>
+          <li>Consonance</li>
+        </ul>
+      </p>
+    
+      <h2 class="question" onclick="toggleAnswer(5)">Can Anyone Write Poetry?</h2>
+      <p class="answer" id="answer5">Yes, anyone can write poetry! Poetry is a form of self-expression, and there are no strict rules or qualifications for being a poet. All you need is a willingness to explore your thoughts and emotions through language.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(6)">How Do I Know If My Poem Is Good?</h2>
+      <p class="answer" id="answer6">The quality of a poem is subjective and can vary depending on individual tastes and preferences. However, some indicators of a good poem include strong imagery, emotional resonance, and effective use of language. Ultimately, trust your instincts and seek feedback from trusted sources.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(7)">What Should I Do If I'm Stuck While Writing a Poem?</h2>
+      <p class="answer" id="answer7">If you're stuck while writing a poem, try taking a break and revisiting it later with fresh eyes. Experiment with different approaches, such as changing the perspective or trying a different poetic form. Don't be afraid to explore new ideas and take risks.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(8)">Should I Follow Traditional Poetic Forms or Write Free Verse?</h2>
+      <p class="answer" id="answer8">Whether you choose to follow traditional poetic forms or write free verse depends on your personal preferences and artistic goals. Traditional forms can provide structure and discipline, while free verse offers freedom and flexibility. Experiment with both to see what works best for you.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(9)">How Can I Improve My Poetic Vocabulary?</h2>
+      <p class="answer" id="answer9">To improve your poetic vocabulary, read poetry regularly and pay attention to the language and imagery used by other poets. Keep a notebook to jot down interesting words and phrases, and make a habit of exploring new words and their meanings.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(10)">What Are Some Common Themes in Poetry?</h2>
+      <p class="answer" id="answer10">Common themes in poetry include: 
+        <ul>
+          <li>Nature</li>
+          <li>Love</li>
+          <li>Loss</li>
+          <li>Identity</li>
+          <li>Mortality</li>
+          <li>Freedom</li>
+          <li>Spirituality</li>
+        </ul>
+      </p>
+    
+      <h2 class="question" onclick="toggleAnswer(11)">How Can I Overcome Writer's Block?</h2>
+      <p class="answer" id="answer11">To overcome writer's block, try changing your environment, taking a walk, or engaging in creative activities such as drawing or listening to music. Freewriting, journaling, and setting small goals can also help stimulate your creativity.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(12)">Can I Write Poetry in Languages Other Than English?</h2>
+      <p class="answer" id="answer12">Yes, poetry can be written in any language! Each language has its own unique rhythms, sounds, and cultural nuances that can enrich poetic expression. Don't be afraid to explore poetry in languages other than English.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(13)">How Can I Make My Poems More Evocative?</h2>
+      <p class="answer" id="answer13">To make your poems more evocative, focus on using sensory language, vivid imagery, and powerful metaphors. Engage the reader's senses and emotions by painting vivid pictures with your words and creating an immersive experience.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(14)">What Is the Difference Between Poetry and Prose?</h2>
+      <p class="answer" id="answer14">Poetry and prose are two different forms of literary expression. Poetry is characterized by its use of rhythm, rhyme, and concise language, whereas prose is written in sentences and paragraphs without structured patterns of rhythm or rhyme.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(15)">Can I Self-Publish My Poetry?</h2>
+      <p class="answer" id="answer15">Yes, you can self-publish your poetry through various platforms and services, such as Amazon Kindle Direct Publishing or independent publishing companies. Self-publishing allows you to retain creative control and reach a wider audience.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(16)">How Do I Copyright My Poetry?</h2>
+      <p class="answer" id="answer16">Your poetry is automatically copyrighted as soon as you create it and fix it in a tangible form, such as writing it down or typing it on a computer. However, if you want additional legal protection, you can register your copyright with the appropriate authorities in your country.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(17)">What Are Some Famous Poets I Should Read?</h2>
+      <p class="answer" id="answer17">Some famous poets you should read include: 
+        <ul>
+          <li>William Shakespeare</li>
+          <li>Emily Dickinson</li>
+          <li>Langston Hughes</li>
+          <li>Sylvia Plath</li>
+          <li>Robert Frost</li>
+          <li>Maya Angelou</li>
+          <li>Walt Whitman</li>
+        </ul>
+      </p>
+    
+      <h2 class="question" onclick="toggleAnswer(18)">How Can I Perform My Poetry in Public?</h2>
+      <p class="answer" id="answer18">To perform your poetry in public, consider participating in open mic nights, poetry slams, or spoken word events. Practice reading your poems aloud and work on your delivery to engage and captivate your audience.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(19)">What Is the Difference Between Slam Poetry and Traditional Poetry?</h2>
+      <p class="answer" id="answer19">Slam poetry is a form of spoken word poetry that emphasizes performance, rhythm, and audience engagement. It often tackles social and political themes and is performed in competitive poetry slams. Traditional poetry, on the other hand, encompasses a wide range of poetic forms and styles, including structured forms like sonnets and haikus.</p>
+    
+      <h2 class="question" onclick="toggleAnswer(20)">How Can I Get Feedback on My Poetry?</h2>
+      <p class="answer" id="answer20">To get feedback on your poetry, consider joining a writers' group, workshop, or online writing community where you can share your work with fellow poets and receive constructive criticism. Seeking feedback from trusted friends, mentors, or teachers can also be helpful.</p>
+    
+     
+      </div>
+    </div>
+    </p>
+    
+    </div>
+    </div>
+    </body>
+    </html>
+
+    
+    <script>
+      // Function to toggle display of answer
+      function toggleAnswer(id) {
+        var answer = document.getElementById("answer" + id);
+        if (answer.style.display === "none") {
+          answer.style.display = "block";
+        } else {
+          answer.style.display = "none";
+        }
+      }
+    </script>
+    
+    </body>
+    </html>
+    
+
+</div>
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var containers = document.querySelectorAll('.container');
+            var links = document.querySelectorAll('nav a');
+
+            links.forEach(function (link) {
+                link.addEventListener('click', function (event) {
+                    event.preventDefault();
+                    var target = link.getAttribute('href').substring(1);
+                    containers.forEach(function (container) {
+                        container.classList.remove('active');
+                    });
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
+
+
+<html>
+    <p>Made by &copy; 2024 Box black</p>
+</html>
+
+
+
+
+</html>
+<footer>
+    <p>&copy; 2024 Poetry Study PSHWP</p>
+    <nav>
+       <p>Thanks for visiting our website</p>
+       <p>Support Us by Following Our Facebook Page</p>
+    </nav>
+</footer>
+</body>
+</html>
